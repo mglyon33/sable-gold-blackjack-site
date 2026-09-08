@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="bg" cx="34%" cy="24%" r="90%">
+      <stop offset="0" stop-color="#285f4c"/>
+      <stop offset="0.55" stop-color="#123428"/>
+      <stop offset="1" stop-color="#070b09"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6dc93"/>
+      <stop offset="0.5" stop-color="#d9b35b"/>
+      <stop offset="1" stop-color="#8a682b"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <circle cx="512" cy="512" r="346" fill="#080d0a" opacity="0.42"/>
+  <circle cx="512" cy="512" r="326" fill="url(#gold)" filter="url(#shadow)"/>
+  <circle cx="512" cy="512" r="278" fill="none" stroke="#f7edcf" stroke-opacity="0.55" stroke-width="10"/>
+  <text x="512" y="592" text-anchor="middle" font-family="Georgia, serif" font-size="330" font-weight="700" fill="#0a100c">21</text>
+  <text x="512" y="758" text-anchor="middle" font-family="Georgia, serif" font-size="150" font-weight="700" fill="#0a100c">♠</text>
+  <path d="M220 170 C350 95 674 95 804 170" fill="none" stroke="#d9b35b" stroke-opacity="0.28" stroke-width="8" stroke-linecap="round"/>
+</svg>
